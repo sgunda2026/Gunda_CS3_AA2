@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MemeHub</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+body{
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/ffd6f82c-60e2-4c97-bdc9-850e966f3ed7/pink-flowers.png');
+}
+
+header{
+    background-color: #8E4040;
+    text-align: center;
+    color:#ff9d9d;
+    margin-top: 5px;
+    border-radius: 25px;
+    padding: 20px; 
+}
+a:link {
+    color:#ff0022;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:#580017;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ffa7a7;
+    background-color:#580017;
+    text-decoration: underline;
+  }
+        a:active {
+         color: rgb(255, 112, 165);
+         background-color: transparent;
+        text-decoration: underline;
+       }
+nav{
+    background-color: #ffcaca;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 25px;
+    
+}
+section{
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 25px;
+}
+#Home1{
+    background-color: #ffcaca;
+    border-radius: 25px; 
+    padding: 10px;
+    text-align: center;   
+}
+#Home2{
+    background-color: #ffcaca;
+    border-radius: 25px; 
+    padding: 10px;
+    text-align: center;
+    }
+#Home3{
+    background-color: #ffa2a2;
+    border-radius: 25px; 
+    padding: 10px;
+    text-align: center;
+    }
+#Home4{
+    background-color: #fdb5b5;
+    border-radius: 25px; 
+    padding: 10px;
+    text-align: center;
+    }
+footer{
+        background-color: #ffe3e3;
+         padding: 10px;
+           text-align: center;
+           color:#540000;
+}
+img{
+    width: 100%;
+    height:auto
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Meme, Myself, And Eye</h1>
+</header>
+
+<hr style="color:rgba(240, 255, 240, 0)">
+
+<nav class="container">
+    <div class="row"> 
+      <div class="col-sm-3">    
+        <a href="Menu.html" target="_self">Home</a>
+      </div>
+
+      <div class="col-sm-3">
+        <a href="Menu.html" target="_self">Life</a>
+      </div>
+
+      <div class="col-sm-3">
+        <a href="Menu.html" target="_self">School</a>
+      </div> 
+      
+      <div class="col-sm-3">
+        <a href="Menu.html" target="_blank">About Us</a>
+      </div>
+    </div>
+</nav>
+
+<section>
+    <h2>Home!</h2>
+</section>
+
+<div class="container">
+   <div class="row">
+
+    <div class="col-sm-5" id="Home1">
+      <img class="img-responsive" src="https://images3.memedroid.com/images/UPLOADED770/63ce9f28aa426.webp" alt="Haunted Mirror">
+      <p>How do you know it's you staring back in the mirror?</p>
+    </div>
+   
+    <div class="col-sm-2">
+
+    </div>
+
+    <div class="col-sm-5" id="Home2">
+        <img class="img-responsive" src="https://images3.memedroid.com/images/UPLOADED301/62057e9257afe.jpeg" alt="Mr Incredible"   >
+        <p>Becareful of who you befriend in the dark</p>
+    </div>
+   </div>
+</div>
+
+<hr style="color:rgba(240, 255, 240, 0)">
+
+<div class="container">
+    <div class="row">
+ 
+     <div class="col-sm-5" id="Home3">
+       <img  class="img-responsive" src="https://images3.memedroid.com/images/UPLOADED654/63cc1c9a3a2e6.webp" alt="Sentence">
+       <p>A great way to give your friends a fright</p>
+     </div>
+    
+     <div class="col-sm-2">
+ 
+     </div>
+ 
+     <div class="col-sm-5" id="Home4">
+         <img class="img-responsive" src="https://images3.memedroid.com/images/UPLOADED737/602ffad0e4cc0.jpeg" alt="Prey">
+         <p>The internet trully is strange</p>
+     </div>
+    </div>
+ </div>
+
+ <hr style="color:rgba(240, 255, 240, 0)">
+
+ <footer>
+    <h3>Memes either created from imgflip.com or taken from memedroid.com</h3>
+ </footer>
+</body>
+</html>
